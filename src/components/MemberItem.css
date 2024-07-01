@@ -1,0 +1,67 @@
+.MemberList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.MemberItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9; /* MemberItem의 배경색을 변경합니다. */
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img_section {
+  cursor: pointer;
+}
+
+.MemberItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.MemberItem img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.MemberItem h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.MemberItem p {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* content의 배경색을 변경합니다. */
+  margin-bottom: 20px;
+}
+
+.button_section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f1f1f1; /* button_section의 배경색을 변경합니다. */
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+}

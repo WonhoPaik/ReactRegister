@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* 배경색을 변경합니다. */
+  color: #333; /* 기본 텍스트 색상을 변경합니다. */
+}
+
+#root {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.MemberList {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 97%;
+  background-color: #ffffff; /* MemberList의 배경색을 변경합니다. */
+}
+
+.MemberItem {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #f9f9f9; /* MemberItem의 배경색을 변경합니다. */
+}
+
+.MemberItem:hover {
+  transform: scale(1.02);
+}
+
+.MemberItem img {
+  border-radius: 50%;
+}
+
+.menu_bar {
+  background-color: #f1f1f1; /* 메뉴 바의 배경색을 변경합니다. */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 98%;
+}
+
+.menu_bar select {
+  border: none;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.menu_bar button {
+  background-color: #ff7f50; /* 버튼의 배경색을 변경합니다. */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu_bar button:hover {
+  background-color: #e67300; /* 버튼의 hover 배경색을 변경합니다. */
+}

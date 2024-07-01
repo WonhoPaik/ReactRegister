@@ -1,0 +1,29 @@
+.Button {
+  background-color: #f0f0f0; /* 버튼��� 배경색을 변경합니다. */
+  color: #333; /* 버튼의 텍스트 색상을 변경합니다. */
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.Button:hover {
+  transform: scale(1.1);
+}
+
+.Button:active {
+  transform: scale(0.9);
+}
+
+.Button_POSITIVE {
+  background-color: #5cb85c; /* POSITIVE 버튼의 배경색을 변경합니다. */
+  color: white;
+}
+
+.Button_NEGATIVE {
+  background-color: #d9534f; /* NEGATIVE 버튼의 배경색을 변경합니다. */
+  color: white;
+}

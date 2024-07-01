@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 3px;
+  border-bottom: 1px dotted #163312;
+}
+
+.header_title {
+  font-size: 25px;
+}
